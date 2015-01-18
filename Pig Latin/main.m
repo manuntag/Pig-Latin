@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "pig latin.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+ 
+        pig_latin * pigLatin = [[pig_latin alloc]init];
+    
+        [pigLatin pigLatin:@"the elephant consumed potatoe chips tonight"];
+    
+        
     }
     return 0;
 }

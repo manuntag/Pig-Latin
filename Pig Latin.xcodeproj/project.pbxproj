@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A4397CF1A69F40400BCAB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4397CE1A69F40400BCAB34 /* main.m */; };
+		8A4397D71A6B49E300BCAB34 /* pig latin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4397D61A6B49E300BCAB34 /* pig latin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8A4397CB1A69F40400BCAB34 /* Pig Latin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pig Latin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4397CE1A69F40400BCAB34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A4397D51A6B49E300BCAB34 /* pig latin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pig latin.h"; sourceTree = "<group>"; };
+		8A4397D61A6B49E300BCAB34 /* pig latin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "pig latin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8A4397CE1A69F40400BCAB34 /* main.m */,
+				8A4397D51A6B49E300BCAB34 /* pig latin.h */,
+				8A4397D61A6B49E300BCAB34 /* pig latin.m */,
 			);
 			path = "Pig Latin";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4397D71A6B49E300BCAB34 /* pig latin.m in Sources */,
 				8A4397CF1A69F40400BCAB34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
